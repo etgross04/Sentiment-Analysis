@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# Large datasets (download via scripts/download_reddit_sarcasm.sh)
+redditSarcasm/train-balanced-sarcasm.csv
+redditSarcasm/train-balanced-sarc.csv.gz
+
