@@ -1,2 +1,6 @@
-# Sentiment-Analysis
-Cogs 118B Final Project
+# Investigation of distilBERT Model uses
+Cogs 118B Final Project: Harry Wang, Ethan Gross, Shien Tioh, Mukund Dittakavi, Taylor Chiu
+
+Abstract: Our project investigates the versatility of the BERT architecture beyond conventional sentiment analysis by fine-tuning the DistilBERT model for various complex linguistic tasks: continuous controversy prediction (0–1), binary sarcasm detection (0 or 1), and multi-class emotion recognition (anger, annoyance, etc). DistilBERT was selected for its computational efficiency, retaining ~97% of BERT's performance while reducing model size and inference time. We modified the model's classification head to accommodate both regression and classification tasks. Experimental results on the test set demonstrate that DistilBERT is effective for tonal and affective tasks, achieving accuracies between 60% and 75% for sarcasm and emotion detection. However, performance on controversy prediction was limited, yielding an average Mean Squared Error (MSE) of 0.25. Our findings show that while transformer models are robust for detecting explicit linguistic markers, modeling subjective or highly contextual constructs like controversy remains a significant challenge.
+
+Our Repo is divided into 3 sections for each task we took on: Reddit Sarcasm, Twitter Controversy, and Google Emotions. There is also a scripts folder to  guide downloading the reddit csv as it was too big to upload to github.
